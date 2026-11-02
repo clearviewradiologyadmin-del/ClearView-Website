@@ -478,14 +478,6 @@
   .appt-insurance-card h4{color:var(--white); font-size:1rem; margin:0 0 8px;}
   .appt-insurance-card p{color:#B9CBDA; font-size:.88rem; margin:0;}
   .appt-insurance-card strong{color:var(--teal-300);}
-  .appt-insurance-card p + p{margin-top:10px;}
-  .appt-provider-row{display:flex; flex-wrap:wrap; gap:8px; list-style:none; margin:0 0 14px; padding:0;}
-  .appt-provider-row li{
-    background:rgba(127,220,207,.16); border:1px solid rgba(127,220,207,.45); color:#fff;
-    font-family:var(--font-display); font-weight:600; font-size:.86rem; padding:6px 14px; border-radius:999px;
-  }
-  .appt-card > p.appt-insurance-note{margin:18px 0 0; font-size:.9rem; color:#3E5565;}
-  .appt-insurance-note a{color:#0B6F67; font-weight:600; text-decoration:underline; text-underline-offset:3px;}
 
   .appt-checklist{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:20px; list-style:none; padding:0;}
   @media (max-width:640px){ .appt-checklist{grid-template-columns:1fr;} }
@@ -967,27 +959,20 @@
         <div class="appt-card">
           <div class="appt-icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.59 13.41 12 22l-9-9 8.59-8.59A2 2 0 0 1 13 4h6a1 1 0 0 1 1 1v6a2 2 0 0 1-.41 1.41z"/><circle cx="16.5" cy="7.5" r="1.5"/></svg></div>
           <h3>Pricing &amp; Insurance</h3>
-          <p>ClearView Radiology Associates currently accepts BAF, BahamaHealth, and Colina. Pricing and patient responsibility may vary depending on your insurance plan and the imaging service requested. Our team will confirm applicable pricing and insurance information during the appointment process.</p>
+          <p>Pricing can be confirmed when you contact Clearview directly. Cost varies based on the procedure and whether you are paying out of pocket or using insurance coverage.</p>
 
           <div class="appt-insurance-grid">
             <div class="appt-insurance-card">
               <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"/></svg></div>
-              <h4>Insurance Accepted</h4>
-              <ul class="appt-provider-row" aria-label="Accepted insurance providers">
-                <li>BAF</li>
-                <li>BahamaHealth</li>
-                <li>Colina</li>
-              </ul>
-              <p>If using insurance, please bring your current physical insurance card with you to your appointment.</p>
+              <h4>Accepted Insurance</h4>
+              <p>We currently accept <strong>BAF</strong> insurance. Please bring your physical insurance card so we can copy it for our records.</p>
             </div>
             <div class="appt-insurance-card">
-              <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18M7 15h4"/></svg></div>
-              <h4>Self-Pay Options</h4>
-              <p>Self-pay options are also available.</p>
+              <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="2"/><circle cx="5" cy="6" r="1.6"/><circle cx="19" cy="6" r="1.6"/><circle cx="5" cy="18" r="1.6"/><circle cx="19" cy="18" r="1.6"/><path d="M12 12L5.6 6.6M12 12l6.4-5.4M12 12l-6.4 5.4M12 12l6.4 5.4"/></svg></div>
+              <h4>Expanding Network</h4>
+              <p>We are actively working to expand our accepted insurance providers. Contact us to confirm your coverage.</p>
             </div>
           </div>
-
-          <p class="appt-insurance-note">To confirm your coverage and applicable costs before your appointment, please contact our office: <a href="https://wa.me/12428298436" target="_blank" rel="noopener">WhatsApp (242) 829-8436</a> or <a href="tel:+12426054780">phone (242) 605-4780 ext. 500</a>.</p>
         </div>
       </div>
 
